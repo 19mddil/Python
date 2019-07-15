@@ -6,8 +6,12 @@ for i in odds:
 	print(i)
 for ch in "hi,there?Things are hardeninig?congrats....":
 	print(ch)
-right_this_minute = datetime.today().minute
-if right_this_minute in odds:
-	print("This minute seems a little odd.")
-else:
-	print("Not an odd minute.")
+for i in range(10):
+	print("ones its done,you can feel it")
+	print(i)
+for i in range(5):
+	right_this_minute = datetime.today().minute
+	if right_this_minute in odds:
+		print("This minute seems a little odd.")
+	else:
+		print("Not an odd minute.")
