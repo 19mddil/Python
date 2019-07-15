@@ -4,6 +4,8 @@ odds = [1,3,5,7,9,11,13,15,17,19,
 		41,43,45,49,51,53,55,57,59]
 for i in odds:
 	print(i)
+for ch in "hi,there?Things are hardeninig?congrats....":
+	print(ch)
 right_this_minute = datetime.today().minute
 if right_this_minute in odds:
 	print("This minute seems a little odd.")
