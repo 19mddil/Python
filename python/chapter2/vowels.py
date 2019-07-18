@@ -1,9 +1,10 @@
-word = "milliways"
-vowels = "aeiou"
-#testing 
+#it also includes a sentence too(the input)....
+word = input("Give a word to search for vowels:")
+vowels = "aeiou"#we could have written it like this vowels=['a','e','i','o','u']
 found = []
-len(found)
-print(len(found))#in command >>> we don't have to use print
 for letter in word:
 	if letter in vowels:
-		print(letter)
+		if letter not in found:
+			found.append(letter)
+for vowel in found:
+	print(vowel)
