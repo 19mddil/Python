@@ -1,3 +1,5 @@
+#set means uniqueness
+#sets have no insertion order so no index
 word = input("Give a word to search for vowels:")
 vowels = "aeiou"#we could have written it like this vowels=['a','e','i','o','u']
 found = {}
