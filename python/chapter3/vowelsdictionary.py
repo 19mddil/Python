@@ -4,6 +4,6 @@ found = {'e':0,'i':0,'u':0,'o':0,'a':0}
 for letter in word:
 	if letter in vowels:
 		found[letter] += 1
-		print(found[letter])
+		#print(found[letter])
 for k,v in sorted(found.items()):
 	print(k,':',v)
