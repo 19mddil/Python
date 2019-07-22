@@ -1,6 +1,6 @@
 import os
 import random
-#import time
+import time
 str = 'abcdefghijklmnopqrstuvwxyz'
 while True:
 	m = random.randint(0,25)
@@ -9,7 +9,7 @@ while True:
 	p = random.randint(0,25)
 	command = 'mkdir '+str[m]+str[n]+str[o]+str[p]
 	os.system(command)
-	#time.sleep(4)
+	time.sleep(1)
 
 
 
