@@ -1,0 +1,4 @@
+When you divide any two numbers, even if they are integers that result in a
+whole number, you’ll always get a float:
+>>> 4/2
+2.0
