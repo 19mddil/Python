@@ -1,0 +1,4 @@
+make a text file,
+paste udebug input
+read from the txt file via python
+match outputs.
