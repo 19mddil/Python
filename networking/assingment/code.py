@@ -11,7 +11,7 @@ def twk( url ,pos):
 
     html = urllib.request.urlopen(url, context=ctx).read()
     soup = BeautifulSoup(html, 'html.parser')
-    
+
     # Retrieve all of the anchor tags
     tags = soup('a')
     #lnk = tags[pos-1].decode()
