@@ -17,6 +17,8 @@ class Graph:
             
     def make_adjacency_list(self):
         adj_list = {key: [] for key in range(self.__v)}
+        #list comprehension used like this:
+            #{0: [], 1: [], 2: [], 3: [],...}
         for edge in self.__edge_list:
             # where edge[1] is the destiny and edge[2] the weight
             edge_val = {edge[1]: edge[2]} 
