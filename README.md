@@ -6,6 +6,7 @@
       <a href="#DB">Database</a>
       <a href="#Net">Networking</a>
       <a href="#lcomp">List Comprehension</a>
+      <a href="#re">Regular Expression</a>
     </nav>
   </header>
   <main>
@@ -20,6 +21,9 @@
     </article>
     <article>
       <h2 id="lcomp">List Comprehension</h2>
+    </article>
+    <article>
+      <h2 id="lcomp">Regular Expression</h2>
     </article>
   </main>
 </body>
