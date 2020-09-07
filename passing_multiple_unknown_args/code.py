@@ -2,7 +2,7 @@
 
 # function definition 
 #We do not know how many arguments will be given
-def calculateTotalSum(*arguments): 
+def calculateTotalSum(*arguments): #arguments passed behaves like a tuple
 	totalSum = 0
 	for number in arguments: 
 		totalSum += number 
