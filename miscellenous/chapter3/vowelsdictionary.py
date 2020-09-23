@@ -8,5 +8,5 @@ for letter in word:
 		found.setdefault(letter,0)#it only executes if not init a key
 		#stack overflow question why dictionary is sorted
 		found[letter] += 1
-for k,v in sorted(found.items()):
+for k,v in sorted(found.items()):#return (k,v) tuple
 	print(k,':',v)
