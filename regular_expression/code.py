@@ -1,7 +1,8 @@
 """
     ^ means the beginning of the file
     $ means the end of the file
-    . means matches any character
+    . means matches any character except new line
+    \d for digits
     \s means matches white space
     \S means matches any non-white space character
     * Repeats a character zero or more times(*? non-greedy)
